@@ -1,17 +1,18 @@
-# 🌐 UniSpace – University Club Exploration Platform
+# 🌐 UniSpace – University Club Exploration Website
 
-UniSpace is a web-based platform that enables university students to explore **technical** and **non-technical clubs** easily.  
-It provides a centralized space to discover clubs, learn about their activities, and engage with campus communities.
+UniSpace is a web-based platform that allows students to explore **technical and non-technical university clubs**.  
+The application is built using **HTML, CSS, Node.js, Express.js, and EJS** for dynamic rendering.
 
 ---
 
 ## 🚀 Features
 
-- Explore **Technical Clubs** (Coding, Robotics, AI, Development, etc.)
-- Explore **Non-Technical Clubs** (Cultural, Sports, Music, Photography, etc.)
-- Clean and responsive user interface
-- Simple and fast navigation
-- Backend routing using Express.js
+- Explore **Technical Clubs**
+- Explore **Non-Technical Clubs**
+- Cultural and Social club sections
+- Clean and responsive UI
+- Dynamic pages using EJS templates
+- Organized CSS for different sections
 
 ---
 
@@ -20,6 +21,7 @@ It provides a centralized space to discover clubs, learn about their activities,
 ### Frontend
 - HTML
 - CSS
+- EJS (Embedded JavaScript Templates)
 
 ### Backend
 - Node.js
@@ -32,16 +34,26 @@ It provides a centralized space to discover clubs, learn about their activities,
 ```txt
 UniSpace/
 │
+├── node_modules/
+│
 ├── public/
-│   ├── css/
-│   │   └── style.css
-│   └── images/
+│   ├── icon/
+│   ├── gsoc.css
+│   ├── muj.jpg
+│   ├── nontech.css
+│   ├── style.css
+│   └── tech.css
 │
 ├── views/
-│   ├── index.html
-│   ├── technical.html
-│   └── nontechnical.html
+│   ├── chapters.ejs
+│   ├── cultural.ejs
+│   ├── gsoc.ejs
+│   ├── index.ejs
+│   ├── nontech.ejs
+│   ├── social.ejs
+│   └── tech.ejs
 │
-├── app.js
+├── index.js
+├── package-lock.json
 ├── package.json
 └── README.md
