@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clubs Info</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav_bar">
+      <img style="height: 47px; width: 47px; border-radius: 50%; animation: none; margin-left: 8px; margin-top: 5px;" src="icon/logo.jpg">
+      <p class="text" style="position: relative; right: 320px;">UNISpace</p>
+      <div class="nav nav_bar">
+        <a href="/home">Home </a>
+        <form method="get" action="/home/option">
+          <select name="club" class="muj" onchange="this.form.submit()" style="cursor: pointer;" >
+            <option disabled selected style="color: gray;">Muj Clubs</option>
+            <option value="Tech">Technical Clubs</option>
+            <option value="Non-Tech">Non-Technical Clubs</option>
+            <option value="Cultural">Cultural Clubs</option>
+            <option value="Social">Social Clubs</option>
+            <option value="Chapters">Chapters</option>
+          </select submit="onclick">
+        </form> 
+        <a href="##">Membership </a>
+        <a href="##">About Us </a>
+        <a href="#contact">Contact Us </a>
+      </div>    
+    </div>
+    <div class="main" >
+      <h2>Welcome to the MUJ <span>UNISpace</span></h2>
+      <p>Your one-stop destination for all club and organization information at Manipal University Jaipur!</p>
+      <form action="#club-icon">
+        <button class="favorite styled" >Explore Clubs</button>
+      </form>
+    </div>
+    <div class="icon" id="club-icon">
+      <img src="icon/acm.jpg" class="clubs">
+      <img src="icon/aperture.jpg" class="clubs">
+      <img src="icon/cosmos.jpg" class="clubs">
+      <img src="icon/ai_ml.jpg" class="clubs">
+      <img src="icon/coreography.jpg" class="clubs">
+      <img src="icon/music.jpg" class="clubs">
+    </div>
+    <section id="contact" class="contact-section">
+      <br>
+      <h2 style="margin-top: 0;"><u>Contact Us</u></h2>
+      <p>For any inquiries, you can reach us via:</p>
+      <ul>
+          <li>Email: krishbudhia@muj.edu.in</li>
+          <li>Phone: +91 8862968922</li>
+          <li>Website: <a href="https://jaipur.manipal.edu/" target="_blank" style="color: white;">MUJ Official Website</a></li>
+      </ul><br><br>
+      <p class="foot">© 2024 MUJ UNISpace.  All Rights Reserved. </p>
+  </section>
+</body>
+</html>

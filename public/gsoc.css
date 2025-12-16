@@ -1,0 +1,41 @@
+body {
+  background-image: url(https://opportunitydesk.org/wp-content/uploads/2022/03/Google-Developer-Student-Clubs-Solution-Challenge-2022.jpg);
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  animation: 2s forwards upside;
+  position: fixed;
+  top: 0;
+}
+@keyframes upside {
+  from {
+    transform: translatey(100%);
+  }
+
+  to {
+    transform: translatey(0%);
+  }
+}
+h1 {
+  margin: 15px;
+}
+.box {
+  background-color: rgba(211, 211, 211, 0.85);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 25px;
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 4%;
+  border-radius: 20px;
+  font-size: 1.15rem;
+  animation: 2s slide-up alternate;
+}
+@keyframes slide-up {
+  from {
+    transform: translatey(100%);
+  }
+
+  to {
+    transform: translatey(0%);
+  }
+}

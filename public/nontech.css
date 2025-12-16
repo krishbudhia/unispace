@@ -1,0 +1,31 @@
+body {
+  background-image: url(https://www.neoito.com/blog/wp-content/uploads/2021/05/10-Best-Ways-to-Start-a-Tech-Startup-as-a-Non-Technical-Person.png.webp);
+  background-size: cover;
+  /* color: white; */
+}
+.text {
+  animation: 2.5s slide-in alternate;
+  font-family: cursive;
+}
+@keyframes slide-in {
+  from {
+    transform: translateY(-150%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+.club {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 13px;
+}
+.card1 {
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 33px;
+}
